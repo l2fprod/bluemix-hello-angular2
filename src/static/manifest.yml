@@ -1,0 +1,5 @@
+applications:
+- name: bluemix-hello-angular2
+  random-route: true
+  memory: 64M
+  buildpack: staticfile_buildpack
