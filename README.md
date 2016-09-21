@@ -36,7 +36,7 @@ This project deploys a simple Angular 2 app in IBM Bluemix. The Angular 2 uses t
   npm run dist
   ```
 
-  This task compiles the Angular 2 app. In addition it copies the [manifest.yml](manifest.yml) file to the **dist** directory together with the [Staticfile](Staticfile). Those two are needed to deploy the **dist** folder with the [Cloud Foundry static buildpack](https://github.com/cloudfoundry/staticfile-buildpack) making it possible to serve plain HTML, CSS, JavaScript files.
+  This task defined in [package.json](package.json) compiles the Angular 2 app. In addition it copies the [manifest.yml](manifest.yml) file to the **dist** directory together with the [Staticfile](Staticfile). Those two are needed to deploy the **dist** folder with the [Cloud Foundry static buildpack](https://github.com/cloudfoundry/staticfile-buildpack) making it possible to serve plain HTML, CSS, JavaScript files.
 
 1. Change to the dist directory
 
