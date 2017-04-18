@@ -53,7 +53,7 @@ This project deploys a simple Angular 2 app in IBM Bluemix. The Angular 2 uses t
   It will create a new app named *bluemix-hello-angular2* with a random route. Watch for the route name in the ```cf push``` output.
 
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.15.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Troubleshooting
 
